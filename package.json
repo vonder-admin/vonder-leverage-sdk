@@ -1,5 +1,5 @@
 {
-  "name": "@vonder-leverage/sdk",
+  "name": "@vonder-admin/sdk",
   "license": "MIT",
   "version": "1.0.0",
   "description": "🛠 An SDK for building applications on top of Vonder Leverage.",
