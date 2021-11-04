@@ -2,7 +2,6 @@ import { ChainId } from '../enums'
 import JSBI from 'jsbi'
 
 export * from './addresses'
-export * from './kashi'
 export * from './natives'
 export * from './numbers'
 export * from './tokens'
@@ -49,6 +48,3 @@ export const SOLIDITY_TYPE_MAXIMA = {
   [SolidityType.uint256]: JSBI.BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
 }
 
-export const LAMBDA_URL = 'https://9epjsvomc4.execute-api.us-east-1.amazonaws.com/dev'
-
-export const SOCKET_URL = 'wss://hfimt374ge.execute-api.us-east-1.amazonaws.com/dev'
